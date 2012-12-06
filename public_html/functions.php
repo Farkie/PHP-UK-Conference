@@ -90,7 +90,7 @@ function buildCell($sessionData) {
         <?php echo $sessionData['title'] ?>
         </div>
         <div class="session-presenter">
-        <a href="/speakers#<?php echo strtolower(str_replace(' ', '', $sessionData['name'])) ?>"><?php echo $sessionData['name'] ?></a>
+        <a href="/speakers#<?php echo strtolower(str_replace(' ', '', $sessionData['name'])) ?>"> - <?php echo $sessionData['name'] ?></a>
         </div>
         <div class="session-abstract">
         <?php echo $sessionData['abstract'] ?>      
